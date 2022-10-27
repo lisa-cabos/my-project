@@ -1,0 +1,102 @@
+.bestsellers img{
+	height: 400px;
+	width: 650px;
+	margin-top: 5px;
+}
+
+section {
+	width: 80%;
+	margin: 80px auto;
+}
+
+.title {
+	text-align: center;
+	font-size: 4vmin;
+	color: black;
+
+}
+
+.row {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
+
+}
+
+.row .col img {
+	width: 70%;
+}
+
+.row .col{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.events .row {
+	margin-top: 50px;
+
+}
+
+.bestsellers h4 {
+	font-size: 3vmin;
+	color:  black;
+	margin: 20px auto;
+
+}
+
+.bestsellers p{
+	color:  black;
+	padding: 0px 40px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.events .ctn {
+	margin-top: 30px ;
+}
+
+ .bestsellers .button{
+	background-color: white;
+	color: black;
+	padding: 5px 3px;
+	border-radius: 4px ;
+	font-weight: bolder ;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 680px){
+	.bestsellers .col{
+		margin: 10px;
+	}
+
+	.bestsellers .row .col img{
+		height :190px;
+		width : 100%;
+		margin-top: 0px;
+	}
+
+	.bestsellers .row .col{
+		display: block;
+		text-align: justify;
+	}
+
+.bestsellers p {
+	text-align: justify;
+}
+
+.card .left{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+
+
+
+
